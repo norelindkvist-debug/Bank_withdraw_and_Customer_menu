@@ -20,6 +20,7 @@ while True:
     else:
         bank_account -= amount
         print(f"You have withdrawn {amount}, you have {bank_account} left on your account")
+       
         break 
     # when u have typed in an amount that isn't more than you have you will get this messedge 
     # break is there to continue with the code that comes next, if break is not here u will continue forever
@@ -31,6 +32,4 @@ if answer == "yes":
 
 else: 
     print("Thank you for being eco friendly!")
-    
-
     
